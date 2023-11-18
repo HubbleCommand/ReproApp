@@ -13,8 +13,6 @@
         {
             count++;
 
-            CounterBtn.RotateYTo(10, 0);
-
             if (count == 1)
                 CounterBtn.Text = $"Clicked {count} time";
             else
