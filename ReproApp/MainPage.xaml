@@ -9,11 +9,12 @@
             Padding="30,0"
             VerticalOptions="Center">
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+			<Frame x:Name="FrameA">
+				<Image Source="dotnet_bot.png"
+					   SemanticProperties.Description="Cute dot net bot waving hi to you!"
+					   HeightRequest="200"
+					   HorizontalOptions="Center" />
+			</Frame>
 
             <Label
                 Text="Hello, World!"

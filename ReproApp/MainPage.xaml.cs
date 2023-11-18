@@ -11,6 +11,7 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
+            FrameA.Content = null;
             count++;
 
             if (count == 1)
